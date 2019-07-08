@@ -1,0 +1,1 @@
+gradlew clean assembleReleaseChannels -PchannelList=web &&  cd release/jiagu && java -jar jiagu.jar -login ******* ******* && java -jar jiagu.jar -jiagu ../../app/release/channels/feimu_origin.apk ../../app/release && python ../ApkResigner.py && cd ../..
